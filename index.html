@@ -37,13 +37,13 @@
     </nav>
 
     <section id="usuarios" class="mb-5">
-        <h2 class="border-bottom pb-2 mb-4">Ayuda para Usuarios</h2>
+        <h2 class="border-bottom pb-2 mb-1 ms-4 mt-2">Ayuda para Usuarios</h2>
         <div class="section-content">
             <div class="image-container">
                 <img src="https://images.unsplash.com/photo-1584316712724-f5d4b188fee2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Usuario reservando una cita" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <p>Nuestra aplicación móvil para usuarios está diseñada para hacer que tu experiencia de reserva de citas sea fácil y conveniente. Aquí encontrarás respuestas a las preguntas más comunes sobre cómo usar la aplicación.</p>
+                <p class="ms-2 me-2">Nuestra aplicación móvil para usuarios está diseñada para hacer que tu experiencia de reserva de citas sea fácil y conveniente. Aquí encontrarás respuestas a las preguntas más comunes sobre cómo usar la aplicación.</p>
             </div>
         </div>
         <div class="accordion" id="accordionUsuarios">
@@ -57,7 +57,7 @@
                     <div class="accordion-body">
                         Para crear una cuenta en Barber Face:
                         <ol>
-                            <li>Descarga la aplicación desde la App Store o Google Play.</li>
+                            <li>Descarga la aplicación desde Google Play "Barber Face".</li>
                             <li>Abre la aplicación y selecciona "Registrarse".</li>
                             <li>Ingresa tu dirección de correo electrónico.</li>
                             <li>Crea una contraseña segura.</li>
@@ -79,34 +79,31 @@
                         Para agendar una cita:
                         <ol>
                             <li>Inicia sesión en la aplicación.</li>
-                            <li>En la pantalla principal, selecciona "Agendar cita".</li>
-                            <li>Elige la fecha y hora que prefieras.</li>
+                            <li>En el menu inferior, selecciona "Gestion".</li>
+                            <li>Elige "Agendar cita".</li>
+                            <li>Completa el formulario</li>
                             <li>Selecciona el barbero de tu preferencia.</li>
-                            <li>Elige el servicio que deseas.</li>
                             <li>Confirma tu reserva.</li>
-                            <li>Recibirás una notificación de confirmación.</li>
+                            <li>Recibirás un aviso de confirmación.</li>
                         </ol>
                     </div>
                 </div>
             </div>
-    
+
             <div class="accordion-item">
-                <h3 class="accordion-header" id="headingUser3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUser3" aria-expanded="false" aria-controls="collapseUser3">
-                        ¿Cómo puedo ver o cancelar mis citas?
+                <h3 class="accordion-header" id="headingUser2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUser2" aria-expanded="false" aria-controls="collapseUser2">
+                        ¿Cómo puedo ver la disponibilidad y experencia del barbero?
                     </button>
                 </h3>
-                <div id="collapseUser3" class="accordion-collapse collapse" aria-labelledby="headingUser3" data-bs-parent="#accordionUsuarios">
+                <div id="collapseUser2" class="accordion-collapse collapse" aria-labelledby="headingUser2" data-bs-parent="#accordionUsuarios">
                     <div class="accordion-body">
-                        Para ver o cancelar tus citas:
                         <ol>
                             <li>Inicia sesión en la aplicación.</li>
-                            <li>Ve a la sección "Mis Citas".</li>
-                            <li>Verás una lista de tus citas programadas.</li>
-                            <li>Para cancelar, selecciona la cita y presiona "Cancelar Cita".</li>
-                            <li>Confirma la cancelación.</li>
+                            <li>En el menu inferior, selecciona "Gestion".</li>
+                            <li>Haz click en la imagen del barbero>
+                            <li>Podras encontrar la información sobre el barbero</li>
                         </ol>
-                        Nota: Por favor, cancela con al menos 24 horas de anticipación para evitar cargos.
                     </div>
                 </div>
             </div>
@@ -122,9 +119,8 @@
                         Para ver los servicios y precios:
                         <ol>
                             <li>Inicia sesión en la aplicación.</li>
-                            <li>Ve a la sección "Servicios".</li>
+                            <li>Ve a la sección "Servicios" en la parte inferior.</li>
                             <li>Verás una lista de todos los servicios ofrecidos con sus respectivos precios.</li>
-                            <li>Puedes filtrar por tipo de servicio o barbero si lo deseas.</li>
                         </ol>
                     </div>
                 </div>
@@ -141,27 +137,51 @@
                         Para actualizar tu perfil:
                         <ol>
                             <li>Inicia sesión en la aplicación.</li>
-                            <li>Ve a la sección "Mi Perfil".</li>
-                            <li>Selecciona "Editar Perfil".</li>
-                            <li>Actualiza la información que desees (nombre, teléfono, foto de perfil, etc.).</li>
-                            <li>Guarda los cambios.</li>
+                            <li>Ve a la sección "Mi Perfil" en la parte inferior.</li>
+                            <li>Actualiza la información que desees.</li>
                         </ol>
                     </div>
                 </div>
             </div>
-    
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingUser6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUser6" aria-expanded="false" aria-controls="collapseUser6">
+                        ¿Cómo puedo ver el mapa en la pantalla principal?
+                    </button>
+                </h3>
+                <div id="collapseUser6" class="accordion-collapse collapse" aria-labelledby="headingUser6" data-bs-parent="#accordionUsuarios">
+                    <div class="accordion-body">
+                        Al registrarte, hay un botón de mapa que te permite observar la ubicación. Simplemente haz clic en el botón para acceder al mapa.
+                    </div>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingUser7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUser7" aria-expanded="false" aria-controls="collapseUser7">
+                        ¿Cómo puedo ver los cortes realizados por los barberos?
+                    </button>
+                </h3>
+                <div id="collapseUser7" class="accordion-collapse collapse" aria-labelledby="headingUser7" data-bs-parent="#accordionUsuarios">
+                    <div class="accordion-body">
+                        En la sección de gestión, puedes acceder al catálogo donde podrás ver todos los cortes realizados por los barberos. Esto te permitirá revisar sus trabajos y elegir el estilo que más te guste.
+                    </div>
+                </div>
+            </div>
+        
+        </div>
             <!-- Continuará con más preguntas en la siguiente parte -->
         </div>
     </section>
 
     <section id="barberos" class="mb-5">
-    <h2 class="border-bottom pb-2 mb-4">Ayuda para Barberos</h2>
+    <h2 class="border-bottom pb-2 mb-1 ms-4 mt-2">Ayuda para Barberos</h2>
     <div class="section-content">
         <div class="text-container">
-            <p>Como barbero profesional, nuestra plataforma te ofrece herramientas para gestionar eficientemente tu agenda, mostrar tu trabajo y conectar con tus clientes. Aprende a sacar el máximo provecho de estas funciones.</p>
+            <p class="ms-4 me-2">Como barbero profesional, nuestra plataforma te ofrece herramientas para gestionar eficientemente tu agenda, mostrar tu trabajo y conectar con tus clientes. Aprende a sacar el máximo provecho de estas funciones.</p>
         </div>
         <div class="image-container">
-            <img src="https://images.unsplash.com/photo-1511391674581-8e554e0d5b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Barbero utilizando la aplicación" class="img-fluid">
+            <img src="https://franquicia.org.mx/wp-content/uploads/2022/10/barberia-1200x740.jpg.webp" alt="Usuario reservando una cita" class="img-fluid">
         </div>
         </div>
         <div class="accordion" id="accordionBarberos">
@@ -175,10 +195,10 @@
                     <div class="accordion-body">
                         Para acceder a tu cuenta de barbero:
                         <ol>
-                            <li>Descarga la aplicación Barber Face para barberos desde la App Store o Google Play.</li>
+                            <li>Instala la APK proporcionada por el administradir.</li>
                             <li>Abre la aplicación y selecciona "Iniciar sesión".</li>
-                            <li>Ingresa el nombre de usuario y contraseña proporcionados por el administrador de tu barbería.</li>
-                            <li>Si es tu primer inicio de sesión, se te pedirá que cambies tu contraseña.</li>
+                            <li>Registrate con tu cuenta de Google.</li>
+                            <li>Ya puedes empezar a navegar.</li>
                         </ol>
                     </div>
                 </div>
@@ -195,9 +215,8 @@
                         Para ver tus citas programadas:
                         <ol>
                             <li>Inicia sesión en la aplicación de barbero.</li>
-                            <li>En la pantalla principal, verás tu agenda del día.</li>
-                            <li>Para ver citas futuras, utiliza el calendario en la parte superior para navegar a fechas específicas.</li>
-                            <li>Cada cita mostrará el nombre del cliente, el servicio solicitado y la hora.</li>
+                            <li>En la parte inferior, verás tus mensajes del día.</li>
+                            <li>Cada cita mostrará el nombre del cliente, número de teléfono, la hora y la fecha.</li>
                         </ol>
                     </div>
                 </div>
@@ -213,54 +232,26 @@
                     <div class="accordion-body">
                         Para actualizar tu disponibilidad:
                         <ol>
-                            <li>Ve a la sección "Mi Disponibilidad" en el menú principal.</li>
-                            <li>Selecciona los días y horas en los que estarás disponible para trabajar.</li>
-                            <li>Puedes establecer horarios diferentes para cada día de la semana.</li>
-                            <li>Si necesitas bloquear horas específicas, usa la función "Bloquear tiempo".</li>
-                            <li>Guarda los cambios cuando hayas terminado.</li>
+                            <li>Debes pedirle al administrador que lo haga.</li>
+
                         </ol>
-                        Recuerda mantener tu disponibilidad actualizada para evitar conflictos de programación.
                     </div>
                 </div>
             </div>
     
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingBarber4">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBarber4" aria-expanded="false" aria-controls="collapseBarber4">
-                        ¿Cómo puedo gestionar mi catálogo de cortes?
-                    </button>
-                </h3>
-                <div id="collapseBarber4" class="accordion-collapse collapse" aria-labelledby="headingBarber4" data-bs-parent="#accordionBarberos">
-                    <div class="accordion-body">
-                        Para gestionar tu catálogo de cortes:
-                        <ol>
-                            <li>Ve a la sección "Mi Catálogo" en el menú principal.</li>
-                            <li>Aquí verás todos los estilos que has añadido previamente.</li>
-                            <li>Para añadir un nuevo estilo, selecciona "Añadir nuevo corte".</li>
-                            <li>Sube hasta dos fotos del corte, dale un nombre y una breve descripción.</li>
-                            <li>Para editar o eliminar un estilo existente, selecciónalo y elige la acción correspondiente.</li>
-                        </ol>
-                        Mantén tu catálogo actualizado para mostrar tus habilidades más recientes a los clientes.
-                    </div>
-                </div>
-            </div>
     
             <div class="accordion-item">
                 <h3 class="accordion-header" id="headingBarber5">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBarber5" aria-expanded="false" aria-controls="collapseBarber5">
-                        ¿Cómo puedo ver mis estadísticas y ganancias?
+                        ¿Cómo puedo actulizar mi perfil?
                     </button>
                 </h3>
                 <div id="collapseBarber5" class="accordion-collapse collapse" aria-labelledby="headingBarber5" data-bs-parent="#accordionBarberos">
                     <div class="accordion-body">
-                        Para ver tus estadísticas y ganancias:
                         <ol>
-                            <li>Ve a la sección "Mis Estadísticas" en el menú principal.</li>
-                            <li>Aquí encontrarás un resumen de tus citas completadas, ingresos y calificaciones de clientes.</li>
-                            <li>Puedes filtrar por día, semana o mes para ver tendencias específicas.</li>
-                            <li>Para un desglose detallado de tus ganancias, selecciona "Informe de Ganancias".</li>
-                            <li>Recuerda que las ganancias mostradas son antes de impuestos y cualquier comisión de la barbería.</li>
-                        </ol>
+                            <li>En la parte inferior selecciona perfil.</li>
+                            <li>Sube una foto para actualizar tu perfil</li>
+                          </ol>
                     </div>
                 </div>
             </div>
@@ -270,13 +261,13 @@
     </section>
 
     <section id="administradores" class="mb-5">
-        <h2 class="border-bottom pb-2 mb-4">Ayuda para Administradores</h2>
+        <h2 class="border-bottom pb-2 mb-1 ms-4 mt-2">Ayuda para Administradores</h2>
         <div class="row mb-4">
-            <div class="col-md-6">
-                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Panel de administración" class="img-fluid rounded">
+            <div class="image-container">
+                <img src="https://orientacion.universia.net.co/imgs2011/imagenes/man-with-p-2022_10_03_173439@2x.jpg" alt="Usuario reservando una cita" class="img-fluid">
             </div>  
             <div class="col-md-6">
-                <p>Como administrador, tienes acceso al panel web para gestionar todos los aspectos de la barbería. Aquí encontrarás respuestas a las preguntas más comunes sobre cómo usar el panel de administración.</p>
+                <p class="ms-4 me-3">Como administrador, tienes acceso al panel web para gestionar todos los aspectos de la barbería. Aquí encontrarás respuestas a las preguntas más comunes sobre cómo usar el panel de administración.</p>
             </div>
         </div>
         <div class="accordion" id="accordionAdmins">
@@ -290,9 +281,8 @@
                     <div class="accordion-body">
                         Para acceder al panel de administración:
                         <ol>
-                            <li>Abre tu navegador web y ve a la URL proporcionada para el panel de administración.</li>
+                            <li>Abre tu navegador web y ve a "barberdface.website".</li>
                             <li>Ingresa tu nombre de usuario y contraseña de administrador.</li>
-                            <li>Si es tu primer inicio de sesión, se te pedirá que cambies tu contraseña por motivos de seguridad.</li>
                             <li>Una vez dentro, tendrás acceso a todas las funciones de administración.</li>
                         </ol>
                     </div>
@@ -309,12 +299,10 @@
                     <div class="accordion-body">
                         Para añadir un nuevo barbero:
                         <ol>
-                            <li>En el panel de administración, ve a la sección "Gestión de Barberos".</li>
+                            <li>En el panel de administración, ve a la sección "Barberos".</li>
                             <li>Haz clic en "Añadir Nuevo Barbero".</li>
                             <li>Completa el formulario con los datos del barbero (nombre, correo, años de experiencia, especialidad, etc.).</li>
-                            <li>Sube una foto de perfil y el certificado profesional si está disponible.</li>
-                            <li>Establece la disponibilidad inicial del barbero.</li>
-                            <li>Guarda los cambios y el sistema generará automáticamente un nombre de usuario y contraseña temporal para el barbero.</li>
+                            <li>Listo ya lo tienes agregado.</li>
                         </ol>
                     </div>
                 </div>
@@ -331,33 +319,11 @@
                         Para gestionar los servicios:
                         <ol>
                             <li>Ve a la sección "Servicios" en el panel de administración.</li>
-                            <li>Aquí verás una lista de todos los servicios actuales.</li>
+                            <li>Aquí verás una tabla de todos los servicios actuales.</li>
                             <li>Para añadir un nuevo servicio, haz clic en "Añadir Servicio" y completa el formulario con nombre, descripción, duración estimada y precio.</li>
                             <li>Para editar un servicio existente, haz clic en el botón "Editar" junto al servicio deseado.</li>
                             <li>Para eliminar un servicio, usa el botón "Eliminar", pero ten cuidado, esta acción no se puede deshacer.</li>
                             <li>Recuerda actualizar a los barberos sobre cualquier cambio en los servicios ofrecidos.</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingAdmin4">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdmin4" aria-expanded="false" aria-controls="collapseAdmin4">
-                        ¿Cómo puedo ver y gestionar las citas?
-                    </button>
-                </h3>
-                <div id="collapseAdmin4" class="accordion-collapse collapse" aria-labelledby="headingAdmin4" data-bs-parent="#accordionAdmins">
-                    <div class="accordion-body">
-                        Para gestionar las citas:
-                        <ol>
-                            <li>Ve a la sección "Citas" en el panel de administración.</li>
-                            <li>Aquí verás una vista general de todas las citas programadas.</li>
-                            <li>Puedes filtrar las citas por fecha, barbero o estado.</li>
-                            <li>Para ver los detalles de una cita, haz clic en ella.</li>
-                            <li>Desde aquí, puedes confirmar, reprogramar o cancelar citas según sea necesario.</li>
-                            <li>También puedes añadir notas a las citas para mantener un registro de información importante.</li>
-                            <li>Si necesitas programar una cita manualmente, usa la opción "Crear Nueva Cita".</li>
                         </ol>
                     </div>
                 </div>
@@ -378,7 +344,7 @@
                             <li>Para crear una nueva promoción, haz clic en "Añadir Promoción".</li>
                             <li>Completa el formulario con el título, descripción, fechas de inicio y fin, y el descuento ofrecido.</li>
                             <li>Puedes subir una imagen para la promoción para hacerla más atractiva.</li>
-                            <li>Para editar o eliminar una promoción existente, usa los botones correspondientes junto a cada promoción en la lista.</li>
+                            <li>Para editar o eliminar una promoción existente, usa los botones correspondientes junto a cada promoción en la tabla.</li>
                             <li>Asegúrate de informar a los barberos sobre las promociones activas para que puedan promocionarlas a los clientes.</li>
                         </ol>
                     </div>
@@ -388,20 +354,17 @@
             <div class="accordion-item">
                 <h3 class="accordion-header" id="headingAdmin6">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdmin6" aria-expanded="false" aria-controls="collapseAdmin6">
-                        ¿Cómo puedo ver los informes financieros?
+                        ¿Cómo puedo agregar mis reportes financieros?
                     </button>
                 </h3>
                 <div id="collapseAdmin6" class="accordion-collapse collapse" aria-labelledby="headingAdmin6" data-bs-parent="#accordionAdmins">
                     <div class="accordion-body">
-                        Para acceder a los informes financieros:
+                        Para agregar los reportes financieros:
                         <ol>
-                            <li>Ve a la sección "Informes Financieros" en el panel de administración.</li>
-                            <li>Aquí encontrarás un resumen de los ingresos, gastos y ganancias.</li>
-                            <li>Puedes generar informes detallados por día, semana, mes o año.</li>
-                            <li>Utiliza los filtros disponibles para ver informes específicos por barbero o tipo de servicio.</li>
-                            <li>Para añadir gastos manuales, usa la opción "Registrar Gasto".</li>
-                            <li>Los gráficos te ayudarán a visualizar las tendencias financieras de tu barbería.</li>
-                            <li>Puedes exportar estos informes en formato CSV o PDF para un análisis más detallado o para compartir con tu equipo financiero.</li>
+                            <li>Ve a la sección "contabilidad" econtraras los ingresos, gastos y ganancias</li>
+                            <li>Aquí encontrarás como agregarlos de manera manual.</li>
+                            <li>Podrás verlos a través de gráficas.</li>
+                            <li>Botones de eliminar y editar por si te equivocas. Recuerda que eliminar no se puede deshacer.</li>
                         </ol>
                     </div>
                 </div>
@@ -412,7 +375,7 @@
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p>&copy; 2024 Barber Face. Todos los derechos reservados.</p>
+            <p>&copy; 2024 ADSO 2670687 - Barber Face. Todos los derechos reservados.</p>
         </div>
     </footer>
 
